@@ -1,0 +1,57 @@
+/* Logo And Navigation Bar */
+#logo{
+    width: 40%;
+    background-color: #981315;
+}
+#nav{
+    text-align: center;
+    background-color: #981315;
+}
+#nav> li{
+    list-style-type: none;
+}
+#nav> li> a{
+    color: white;
+    font-size: x-large;
+    text-decoration: none;
+}
+#nav> li> a:hover{
+    color: black;
+}
+
+/* About */
+#about{
+    text-align: center;
+}
+#trailers{
+    background-image: url('dwbackground.png');
+    background-size: 100% 100%;
+}
+
+#nav_footer{
+    /* margin-top: 20px; */
+    height: 175px;
+    text-align: center;
+    background-color: rgb(35, 36, 36);
+}   
+#nav_footer> li{
+    list-style-type: none;
+}
+#nav_footer> li> a{
+    color: white;
+    font-size: x-large;
+    text-decoration: none;
+}
+#nav_footer> li> a:hover{
+    color: rgb(163, 5, 5);
+}
+
+.b_avenger{
+    color: white; background-image: linear-gradient(to right, rgb(212, 63, 8), rgb(29, 102, 170), rgb(217, 156, 44), rgb(22, 132, 22));
+}
+
+.scrolltext{
+    color:white;
+    background-color: #981315; 
+    margin: 0;
+}
